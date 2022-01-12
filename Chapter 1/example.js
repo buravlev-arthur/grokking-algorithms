@@ -1,5 +1,5 @@
 const numbers = [1, 3, 7, 12, 15, 16, 22, 24, 28, 30];
-const seekNumber = 24;
+const seekingNumber = 24;
 
 const findNumber = (numbers, n) => {
 let low = 0;
@@ -20,4 +20,4 @@ while (low <= high) {
 return false;
 }
 
-console.log(findNumber(numbers, seekNumber));
+console.log(findNumber(numbers, seekingNumber));
